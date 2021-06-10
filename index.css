@@ -1,0 +1,72 @@
+header {
+    text-align: center;
+    background: url('./4d1442bd6c1ab961e1fdb99498c10bfc.jpg');
+    background-size: cover;
+    color: white;
+
+  }
+body {
+background: silver;
+}
+div, section {
+font-size: 20px;
+padding: 10px;
+margin: 10px 0px 0px 0px;
+}
+  a {
+    color: white;
+  }
+  h1 {
+    font-size: 70px;
+    font-family: verdana;
+  }
+  h2 {
+    text-align: center;
+
+
+  }
+  p {
+      text-align: justify;
+      background-color: white;
+      padding: 20px 20px;
+  }
+  img {
+   
+    margin: 10px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
+    width: 200px;
+    
+  }
+  ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+  }
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  button {
+    width: 80px;
+    padding: 5px 0;
+    border: none;
+    cursor: pointer;
+    
+
+  }
+  @media (max-width: 500px) {
+  
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+    li {
+      padding: 5px;
+      display: block;
+    }
+  }
